@@ -252,13 +252,17 @@ div.paragrafas p {
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .aboutlogo {
   margin: auto;
   position: absolute;
-  bottom: 10%;
-  left: 47%;
+  bottom: 48px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 body {
@@ -499,7 +503,7 @@ i {
 #contact_form {
   position: relative;
   content-align: center;
-  padding: 90px 90px;
+  padding: 16px;
   position: relative;
   top: 0;
   right: 0;
@@ -507,6 +511,10 @@ i {
   left: 0;
   display: cover;
   margin: 0;
+}
+
+#contact_form .row {
+  max-width: 100%;
 }
 
 .divas {
