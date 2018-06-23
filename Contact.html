@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/stilius.css">
+	<title>Men time!</title>
+</head>
+<body>
+<div class="back">
+  <a href="javascript:history.go(-1)"><i class="fas fa-chevron-left"></i></a>
+</div>
+<div class="divas">
+	<h2 class="kontaktas">Contact us!</h2>
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="80" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="80" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="80"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+
+</div>
+
+
+
+<script
+			src="https://code.jquery.com/jquery-1.12.4.min.js"
+			integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			crossorigin="anonymous"></script>
+		
+	</body>
+	</html>

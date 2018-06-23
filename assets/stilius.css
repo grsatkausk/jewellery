@@ -1,0 +1,532 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fullscreen-bg {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: cover;
+  margin: 0;
+}
+
+.fullscreen-bg__video {
+  z-index: -1;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dideliscontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex {
+  display: none;
+}
+
+.centras {
+  text-align: center;
+  position: relative;
+}
+
+.content {
+  position: fixed;
+  color: white;
+  top: 50%;
+  left: 30%;
+  right: 0%;
+}
+
+.pavadinimas {
+  position: relative;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.pavadinimas img {
+  width: 100%;
+  max-width: 750px;
+  margin-top: 15%;
+}
+
+.burgerio_cont {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.meniu-item {
+  width: 35px;
+  height: 5px;
+  background-color: #76f496;
+  margin: 6px 0;
+}
+
+.menu-item a {
+  color: white;
+}
+
+.nav header-nav {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+#iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-bottom: 10px;
+  border-width: 10px;
+  border-color: #76f496;
+  content-align: center;
+}
+
+.icon_bar {
+  position: relative;
+  top: 100px;
+  width: 100px;
+  margin: 0 auto;
+  content-align: center;
+}
+
+.jj {
+  color: #76f496;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+/*kolekciju stilius*/
+.sekcija {
+  position: relative;
+  content-align: center;
+  margin: 0 auto;
+  max-width: 1150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  width: 35%;
+  background-color: #151a1f;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 10px solid #76f496;
+  margin-bottom: 40px;
+  overflow: auto;
+  display: flow-root;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    float: none;
+    width: 100%;
+  }
+}
+
+.collections {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.photo2 img {
+  width: 140px;
+  height: auto;
+}
+
+.photo1 img {
+  padding: 20px;
+  height: auto;
+}
+
+.ziedai img {
+  padding: 20px;
+  height: auto;
+}
+
+.paveikslas img {
+  padding: 20px;
+  height: auto;
+}
+
+.Mood img {
+  padding: 20px;
+  height: auto;
+  padding-bottom: 20px;
+  overflow: auto;
+}
+
+.words a {
+  color: #76f496;
+  text-decoration: none;
+}
+
+.words {
+  font-family: 'Didot';
+  position: absolute;
+  line-height: 1em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #76f496;
+  font-size: 30px;
+  width: 100%;
+}
+
+.big_container {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  background-color: #1c1709;
+}
+
+.mainname {
+  font-family: 'Futura';
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  letter-spacing: .2rem;
+  display: block;
+  padding: 20px;
+}
+
+.aboutcontainer {
+  position: relative;
+  background-color: #1c1709;
+  min-height: 100vh;
+  border-style: solid;
+  border-color: #76f496;
+  border-width: 10px;
+}
+
+.logo {
+  position: relative;
+  bottom: 40%;
+}
+
+.pavad {
+  font-family: 'Futura';
+  text-align: center;
+  color: #76f496;
+  padding: 40px;
+}
+
+div.paragrafas p {
+  position: relative;
+  font-family: 'Didot';
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.aboutlogo {
+  margin: auto;
+  position: absolute;
+  bottom: 10%;
+  left: 47%;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.pa {
+  font-family: 'Futura';
+  text-align: center;
+  color: #76f496;
+}
+
+.aprasymas {
+  text-align: center;
+}
+
+/* fluid 5 columns */
+.grid {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+
+/* 2 columns wide */
+.grid-item--width2 {
+  width: 20%;
+}
+
+.aprasymas {
+  position: relative;
+  font-family: 'Didot';
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* make it look decent enough */
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: green;
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #76f496;
+  border-radius: 3px;
+  z-index: 1;
+  -webkit-transform-origin: 4px 0px;
+  -ms-transform-origin: 4px 0px;
+  transform-origin: 4px 0px;
+  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menuToggle span:first-child {
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+  -ms-transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+  -ms-transform: rotate(0deg) scale(0.2, 0.2);
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  -webkit-transform: rotate(-45deg) translate(0, -1px);
+  -ms-transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  font-family: 'Didot';
+  color: #76f496;
+  background: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+i #iconos {
+  padding: 20px 20px;
+  size: 40px;
+  color: #76f496;
+}
+
+i {
+  padding: 20px 20px;
+  size: 40px;
+  color: #76f496;
+}
+
+#contact_form {
+  position: relative;
+  content-align: center;
+  padding: 90px 90px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: cover;
+  margin: 0;
+}
+
+.divas {
+  position: relative;
+}
+
+.kontaktas {
+  color: #76f496;
+  padding-left: 15%;
+}
+
+.choose_your_mood {
+  overflow: auto;
+}
+
+.head {
+  text-align: center;
+  padding: 32px;
+}
+
+#menuToggle {
+  position: fixed;
+}

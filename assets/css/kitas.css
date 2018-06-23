@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+
+}
+
+
+body {
+	margin: 0;
+}
+
+
+
+..fullscreen-bg {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: cover;
+  margin:0;
+  /*overflow: hidden;*/
+/*  z-index: -100;*/
+
+}
+
+.fullscreen-bg__video {
+  /*background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: 100%;*/
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+.flex{
+  display: none;
+}
+
+
+
+.content {
+
+  position: fixed;
+  color:white;
+  top: 50%;
+  left:30%;
+  right:0%;
+ 
+}
+.pavadinimas {
+  position: relative;
+  align-content: center;
+  margin-left: 20%;
+  margin-top: 5%;
+  bottom: 40%;
+
+	
+
+	
+}
+
+.fas fa-bars {
+    background-color: #76f496!important;
+}
+
+.burger {
+    
+    width: 35px;
+    height: 5px;
+    background-color: #76f496!important;
+    margin: 6px 0;
+
+}
+
+.logo {
+  position: absolute;
+  width:23%;
+  right: 35%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+ 
+}
+
+.meniu {
+
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 500px;
+
+}
+.nav header-nav {
+	position: relative;
+	top: 50px;
+	right: 50px;
+	width: 500px;
+}
+.iconos {
+  margin-right: 0%;
+  margin-bottom: 80%;
+  border-width: 2px;
+  border-color: #76f496;
+  
+
+}
+
+
+
+.icon_bar {
+
+  position: absolute;
+  width:23%;
+  right: 30%;
+  margin-top: 30%;
+  padding-bottom: 10%;
+
+
+
+}
+
+a {
+
+  display: row;
+  padding-right: 3%;
+
+
+}
+
+.jj {
+
+  color: #76f496!important;
+  padding-right: 3%;
+  margin-bottom: : 30%;
+  border: 50px;
+
+
+}
+
+For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+/*header stilius burger*/
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  user-select: none;
+}
+
+.Hedear-icon {
+  cursor: pointer;
+  width: 55.5px;
+  height: 55.5px;
+
+}
+.Header-icon, .Header-menu {
+  left: 35px;
+  top: 35px;
+  position: absolute;
+}
+:not(body) {
+  background-repeat: no repeat;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*{
+  border-collapse: inherit;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+  overflow: hidden;
+}
+
+/*kolekciju stilius*/
+
+.big_container{
+    background-color: #1c1709;
+}
+
+.box{
+    display: flex;
+    background-color: #151a1f;
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+.photo1 img {
+    width:140px;
+    height: auto;
+}
+
+h2 {
+  color: #76f496!important;
+  font-size: 100px;
+}
+
+.big_container {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+
+
+h1 {
+  color: white;
+  font-size:  110px;
+  display: block;
+}
+
+
+div {
+  display: block;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
